@@ -1,4 +1,4 @@
-# TinyShop
+# ONLINE STORE FULLSTACK APP
 
 TinyShop is a deliberately scoped full-stack e-commerce application built to strengthen practical understanding of frontend development, backend APIs, relational data modelling, authentication, payments, webhooks, testing, containers, cloud deployment, networking, and operations.
 
