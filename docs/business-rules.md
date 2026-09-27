@@ -65,7 +65,7 @@ All request bodies, path parameters, and query parameters are validated with Zod
 | --- | --- | --- | --- | --- |
 | `GET` | `/health` | Public | `200`; `503` when a required dependency is unavailable | Report service and required dependency health. It must not expose secrets or detailed infrastructure configuration. |
 | `GET` | `/products` | Public | `200` | List active products. Supports validated pagination parameters. BR-001, BR-002. |
-| `GET` | `/products/:productId` | Public | `200` | Return one active product; return `404` when it is absent or inactive. BR-001, BR-002. |
+| `GET` | `/products/:slug` | Public | `200` | Return one active product by its unique public slug; return `404` when it is absent or inactive. BR-001, BR-002. |
 | `GET` | `/cart` | Customer | `200` | Return the authenticated customer's cart and server-calculated subtotal. BR-003, BR-004, BR-008, BR-009. |
 | `POST` | `/cart/items` | Customer | `201` when created; `200` when an existing line is updated | Add `{ productId, quantity }` to the cart. BR-003, BR-004, BR-006, BR-007. |
 | `PATCH` | `/cart/items/:itemId` | Customer | `200` | Replace the line quantity using `{ quantity }`. BR-004, BR-006. |
