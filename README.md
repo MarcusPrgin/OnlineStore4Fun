@@ -4,14 +4,6 @@ TinyShop is a deliberately scoped full-stack e-commerce application built to str
 
 This is primarily a learning project. The goal is not to create the largest possible store; it is to understand and be able to explain the complete lifecycle of a reliable transaction—from a browser request to an authenticated API call, database transaction, Stripe webhook, deployed service, and production log.
 
-## Project status
-
-**Current stage:** Phase 0 — establish the problem and boundaries.
-
-The repository has been created and cloned. Application packages have intentionally not been installed yet. The product journeys, business rules, system boundaries, and evidence of completion will be defined before implementation begins.
-
-See [PRE_PHASE_0_SETUP.md](PRE_PHASE_0_SETUP.md) for the environment readiness checklist.
-
 ## Canonical customer journey
 
 The finished application should allow a user to:
